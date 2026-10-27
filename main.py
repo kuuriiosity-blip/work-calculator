@@ -15,5 +15,7 @@ print("Remaining money:", remaining, "CZK")
 
 if remaining < 0:
     print("Your expenses are higher than your payment.")
+elif remaining == 0:
+    print("You have no money left.")
 else:
-    print("Your expenses are covered.")
+    print("You have money left:", remaining, "CZK")
